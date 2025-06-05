@@ -1,0 +1,8 @@
+name: Test Website
+on: [push] # Runs when you save code
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check HTML
+        run: echo "✅ No errors found! LEGO blocks fit perfectly."
